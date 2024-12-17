@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #0066cc;
+}
+
+body {
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+}
+
+h1 {
+  @apply text-3xl font-bold mb-6;
+}
+
+h2 {
+  @apply text-2xl font-bold mb-4;
+}
+
+p {
+  @apply mb-4;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
